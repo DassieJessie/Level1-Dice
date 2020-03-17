@@ -9,4 +9,7 @@
     <string name="equals">Equals</string>
     <string name="lower">Lower</string>
     <string name="dice">Dice</string>
+
+    <string name="correct">You were right!!</string>
+    <string name="incorrect">:c incorrect</string>
 </resources>
