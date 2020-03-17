@@ -32,7 +32,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/last_throw"
+        android:id="@+id/idLastThrow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -52,8 +52,8 @@
         app:layout_constraintEnd_toStartOf="@+id/btnHigher"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btnLower"
-        app:layout_constraintTop_toBottomOf="@+id/last_throw"
-        app:layout_constraintVertical_bias="0.78" />
+        app:layout_constraintTop_toBottomOf="@+id/idLastThrow"
+        app:layout_constraintVertical_bias="0.658" />
 
     <Button
         android:id="@+id/btnLower"
@@ -66,8 +66,8 @@
         app:layout_constraintEnd_toStartOf="@+id/btnEquals"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/last_throw"
-        app:layout_constraintVertical_bias="0.78" />
+        app:layout_constraintTop_toBottomOf="@+id/idLastThrow"
+        app:layout_constraintVertical_bias="0.658" />
 
     <Button
         android:id="@+id/btnHigher"
@@ -80,7 +80,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btnEquals"
-        app:layout_constraintTop_toBottomOf="@+id/last_throw"
-        app:layout_constraintVertical_bias="0.78" />
+        app:layout_constraintTop_toBottomOf="@+id/idLastThrow"
+        app:layout_constraintVertical_bias="0.658" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
