@@ -21,6 +21,16 @@ class HigherLowerActivity : AppCompatActivity() {
      * Set the initial (UI) state of the game.
      */
     private fun initViews() {
+        btnHigher.setOnClickListener{
+            onHigherClick()
+        }
+        btnEquals.setOnClickListener{
+            onEqualClick()
+        }
+        btnLower.setOnClickListener{
+            onLowerClick()
+        }
+
         updateUI()
     }
 
@@ -29,6 +39,17 @@ class HigherLowerActivity : AppCompatActivity() {
      */
     private fun updateUI() {
         idLastThrow.text = getString(R.string.last_throw, lastThrow)
+
+
+        // (met hulp)
+        when (currentThrow){
+            1 -> ivDice.setImageResource(R.drawable.dice1)
+            2 -> ivDice.setImageResource(R.drawable.dice2)
+            3 -> ivDice.setImageResource(R.drawable.dice3)
+            4 -> ivDice.setImageResource(R.drawable.dice4)
+            5 -> ivDice.setImageResource(R.drawable.dice5)
+            6 -> ivDice.setImageResource(R.drawable.dice6)
+        }
     }
 
     /**

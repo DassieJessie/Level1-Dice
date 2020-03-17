@@ -7,7 +7,7 @@
     tools:context=".HigherLowerActivity">
 
     <ImageView
-        android:id="@+id/dice5"
+        android:id="@+id/ivDice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/diceDescription"
@@ -39,7 +39,7 @@
         android:text="@string/last_throw"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dice5" />
+        app:layout_constraintTop_toBottomOf="@+id/ivDice" />
 
     <Button
         android:id="@+id/btnEquals"
