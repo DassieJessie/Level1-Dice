@@ -7,6 +7,8 @@ import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
+    private var correctAnswers: Int = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_logica_app)
@@ -18,6 +20,20 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun onClickConfirm() {
-        Toast.makeText(this,  getString(R.string.test), Toast.LENGTH_LONG).show()
+        correctAnswers = 0
+        checkAnswers()
+        Toast.makeText(this,  getString(R.string.correctNumAnswers, correctAnswers), Toast.LENGTH_LONG).show()
     }
+
+    private fun checkAnswers(){
+        if (idAnswer1.text.toString() == "T" || idAnswer1.text.toString() == "t") correctAnswer()
+        if (idAnswer2.text.toString() == "F" || idAnswer1.text.toString() == "f") correctAnswer()
+        if (idAnswer3.text.toString() == "F" || idAnswer1.text.toString() == "f") correctAnswer()
+        if (idAnswer4.text.toString() == "F" || idAnswer1.text.toString() == "f") correctAnswer()
+    }
+
+    private fun correctAnswer(){
+        correctAnswers++
+    }
+
 }
