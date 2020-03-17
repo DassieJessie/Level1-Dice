@@ -6,10 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d22de52-5b44-4c87-b97f-ec8c84d07c4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Task 2/app/src/main/java/com/example/logicaapp/LogicaAppActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Task 2/app/src/main/java/com/example/logicaapp/LogicaAppActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task 2/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task 2/app/src/main/res/values/strings.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7d22de52-5b44-4c87-b97f-ec8c84d07c4c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
