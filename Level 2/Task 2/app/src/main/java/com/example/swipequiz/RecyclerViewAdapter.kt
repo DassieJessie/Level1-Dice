@@ -12,7 +12,7 @@ public class RecyclerViewAdapter(private val questions: List<Questions>) :
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bind(questions: Questions){
-            itemView.idQRecycle.text = questions.questionString
+            itemView.idQuestText.text = questions.questionString
         }
     }
 
