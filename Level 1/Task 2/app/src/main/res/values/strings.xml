@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Logica App</string>
+
+    <string name="title">Conjunction (AND)</string>
+
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="Formula">A ^ B</string>
+
+    <string name="True">T</string>
+    <string name="False">F</string>
+
+    <string name="TextFill">T or F</string>
+    <string name="Confirm">Confirm</string>
+
+    <string name="test">Test message</string>
 </resources>
