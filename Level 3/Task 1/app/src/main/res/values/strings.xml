@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">User Profile App</string>
+
+
+    <string name="SpashScreenText">User Profile Kotlin</string>
+
+    <string name="imgDescript">White profile image</string>
 </resources>
