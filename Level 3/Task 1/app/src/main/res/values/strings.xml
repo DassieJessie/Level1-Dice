@@ -3,6 +3,14 @@
 
 
     <string name="SpashScreenText">User Profile Kotlin</string>
-
     <string name="imgDescript">White profile image</string>
+
+    //activity create profile
+    <string name="btnOpenPicGallary">OPEN PICTURE GALLERY</string>
+
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="description">Description</string>
+
+    <string name="confirm">Confirm</string>
 </resources>
