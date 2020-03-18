@@ -27,9 +27,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun checkAnswers(){
         if (idAnswer1.text.toString() == "T" || idAnswer1.text.toString() == "t") correctAnswer()
-        if (idAnswer2.text.toString() == "F" || idAnswer1.text.toString() == "f") correctAnswer()
-        if (idAnswer3.text.toString() == "F" || idAnswer1.text.toString() == "f") correctAnswer()
-        if (idAnswer4.text.toString() == "F" || idAnswer1.text.toString() == "f") correctAnswer()
+        if (idAnswer2.text.toString() == "F" || idAnswer2.text.toString() == "f") correctAnswer()
+        if (idAnswer3.text.toString() == "F" || idAnswer3.text.toString() == "f") correctAnswer()
+        if (idAnswer4.text.toString() == "F" || idAnswer4.text.toString() == "f") correctAnswer()
     }
 
     private fun correctAnswer(){
